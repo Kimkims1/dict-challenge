@@ -32,25 +32,25 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pleaseLoginTxt"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="130dp"
         android:text="Login instantly:" />
 
     <Button
         android:id="@+id/btnFacebook"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="170dp"
-        android:layout_height="55dp"
+        android:layout_height="67dp"
         android:layout_below="@id/loginInstantTxt"
         android:layout_marginTop="20dp"
-        android:drawableStart="@drawable/facebook"
+        android:drawableTop="@drawable/facebook"
         />
 
     <Button
         android:id="@+id/btnGoogle"
-        android:drawableStart="@drawable/google"
+        android:drawableTop="@drawable/google"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="170dp"
-        android:layout_height="55dp"
+        android:layout_height="67dp"
         android:layout_below="@id/loginInstantTxt"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp" />
@@ -77,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/emailLogin"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:hint="Password"
         android:inputType="textPassword" />
 
