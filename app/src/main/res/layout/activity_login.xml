@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Login Now"
+        android:text="Sign In Now"
         android:textColor="@color/colorBlack"
         android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:textColor="@color/colorBlack"
-        android:text="Please login to continue using our app" />
+        android:text="Please sign in to continue using our app" />
 
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:textColor="@color/colorBlack"
-        android:text="Login instantly:" />
+        android:text="Sign in instantly:" />
 
     <Button
         android:id="@+id/btnFacebook"
@@ -66,7 +66,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:textColor="@color/colorBlack"
-        android:text="or login with email" />
+        android:text="or sign in with email" />
 
     <EditText
         android:id="@+id/emailLogin"
@@ -109,7 +109,7 @@
         android:layout_below="@id/forgotLoginPassword"
         android:layout_marginTop="20dp"
         android:textAllCaps="false"
-        android:text="Login to my account" />
+        android:text="Sign in" />
 
     <TextView
         android:id="@+id/noAccountTxt"
@@ -121,13 +121,14 @@
         android:text="Don't have an account?" />
 
     <TextView
+        android:id="@+id/signUpTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnLogin"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="10dp"
         android:textColor="@color/colorBlack"
-        android:text="Register Now" />
+        android:text="Sign Up Now" />
 
 
 </RelativeLayout>
