@@ -94,7 +94,7 @@
         android:id="@+id/btnLogin"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="67dp"
         android:layout_below="@id/forgotLoginPassword"
         android:layout_marginTop="20dp"
         android:text="Login to my account" />
