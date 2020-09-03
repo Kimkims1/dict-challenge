@@ -97,6 +97,7 @@
         android:layout_height="67dp"
         android:layout_below="@id/forgotLoginPassword"
         android:layout_marginTop="20dp"
+        android:textAllCaps="false"
         android:text="Login to my account" />
 
     <TextView
