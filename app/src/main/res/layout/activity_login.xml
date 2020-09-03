@@ -32,27 +32,28 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pleaseLoginTxt"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="180dp"
         android:text="Login instantly:" />
 
     <Button
         android:id="@+id/btnFacebook"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="170dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_below="@id/loginInstantTxt"
         android:layout_marginTop="20dp"
-        android:text="F" />
+        android:drawableStart="@drawable/facebook"
+        />
 
     <Button
         android:id="@+id/btnGoogle"
+        android:drawableStart="@drawable/google"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="170dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_below="@id/loginInstantTxt"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="20dp"
-        android:text="G" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/orLoginTxt"
